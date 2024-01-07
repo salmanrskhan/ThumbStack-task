@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio| Page</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- css for image sliders -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+
+</head>
+
+<body>
+
+    <!-- Main Section -->
+    <section>
+        <div class="containerDiv">
+            <aside id="asideId" class="asideDiv">
+                <div>
+                    <div class="closeBtnDiv">
+                        <span id="clsBtn" onclick="HideAside()"><i class="fa-solid fa-xmark clsBtnBg"></i></span>
+                    </div>
+                    <div class="asideLogoDiv">
+                        <a href=""><img src="images/name-logo-light-removebg.png" alt=""></a>
+                    </div>
+                    <div class="asidelistDiv">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#aboutMe">About Me</a></li>
+                            <li><a href="#servicess">Service</a></li>
+                            <li><a href="#portfolioo">Portfolio</a></li>
+                            <li><a href="#blogg">Blog</a></li>
+                            <li><a href="#contactt">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+
+            <nav id="navId">
+                <div class="navDiv">
+                    <div>
+                        <a href=""><img src="images/name-logo-light-removebg.png" alt=""></a>
+                    </div>
+                    <div class="navRight">
+                        <div id="btn" onclick="toggleHide()"><i class="fa-solid fa-bars"></i></div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Main Contnet Area -->
+            <div id="mainDiv" class="mainDivCls">
+
+                <!-- Banner Area -->
+                <div class="topBanner" id="home">
+                    <div class="topBannerTxtDiv">
+                        <div class="col-lg-10 topBannerTxtBox">
+                            <h6>I Am MD SALMAN KHAN</h6>
+                            <h1>Frontend Developer</h1>
+                            <div>
+                                <a href="#portfolioo">PROJECTS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="socialLinks">
+                        <ul>
+                            <li><a href="#" title=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#" title=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#" title=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#" title=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="white_svg"><svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+                            <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 "></polygon>
+                        </svg></div>
+                </div>
+
+                <!-- About sec -->
+                <section class="aboutSec" id="aboutMe">
+                    <div class="abooutDiv">
+                        <div class="row g-4">
+                            <div class="col-lg-5">
+                                <div class="aboutImgDiv">
+                                    <img src="images/photo-1630221339329-52d1113c4dcc.jpg" alt=""
+                                        width="100%">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="aboutTxtSide">
+                                    <div class="iconbgCls"><i class="fa-solid fa-code"></i></div>
+                                    <h2>Hi, I’m MD SALMAN KHAN. Nice to meet you.</h2>
+                                    <p>As a Junior Front-End Developer, I specialize in creating awesome websites using HTML, CSS, JavaScript, React, Tailwind, and SCSS. I'm great at making websites look good on any device and ensuring they're easy to use. I love writing clean and efficient code to build dynamic and engaging interfaces. I enjoy working with teams to create outstanding web applications.</p>
+                                    <div>
+                                        <div><img src="images/signeture.png" alt=""></div>
+                                        <h6>Frontend Developer</h6>
+                                    </div>
+                                    <button><a href="#contactt">Let's Talk</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="white_svg fillBlck"><svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+                            <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 "></polygon>
+                        </svg></div>
+                </section>
+
+
+                <!-- /* My Service Section */ -->
+                <section class="serviceSec" id="servicess">
+                    <div class="serviceDiv">
+                        <div class="sectionHeading">
+                            <p>What I am Expert In</p>
+                            <h2>My Service</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-xl-4 col-md-6">
+                                <div class="serviceBox">
+                                    <div class="serviceIcon">
+                                        <div class="dotsDiv">
+                                            <div class="dot1"></div>
+                                            <div class="dot2"></div>
+                                        </div>
+                                        <i class="fa-solid fa-laptop"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Web Design</h4>
+                                        <p>One way to categorize the activities is in terms of the professional’s
+                                            area of expertise such as competitive analysis, corporate strategy.</p>
+                                        <div><a href="">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-6">
+                                <div class="serviceBox">
+                                    <div class="serviceIcon">
+                                        <div class="dotsDiv">
+                                            <div class="dot1"></div>
+                                            <div class="dot2"></div>
+                                        </div>
+                                        <i class="fa-solid fa-code"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Web Development</h4>
+                                        <p>One way to categorize the activities is in terms of the professional’s
+                                            area of expertise such as competitive analysis, corporate strategy.</p>
+                                        <div><a href="">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-6">
+                                <div class="serviceBox">
+                                    <div class="serviceIcon">
+                                        <div class="dotsDiv">
+                                            <div class="dot1"></div>
+                                            <div class="dot2"></div>
+                                        </div>
+                                        <i class="fa-solid fa-paint-roller"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Creative Design</h4>
+                                        <p>One way to categorize the activities is in terms of the professional’s
+                                            area of expertise such as competitive analysis, corporate strategy.</p>
+                                        <div><a href="">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-6">
+                                <div class="serviceBox">
+                                    <div class="serviceIcon">
+                                        <div class="dotsDiv">
+                                            <div class="dot1"></div>
+                                            <div class="dot2"></div>
+                                        </div>
+                                        <i class="fa-solid fa-mobile-button"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Responsive Design</h4>
+                                        <p>One way to categorize the activities is in terms of the professional’s
+                                            area of expertise such as competitive analysis, corporate strategy.</p>
+                                        <div><a href="">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-6">
+                                <div class="serviceBox">
+                                    <div class="serviceIcon">
+                                        <div class="dotsDiv">
+                                            <div class="dot1"></div>
+                                            <div class="dot2"></div>
+                                        </div>
+                                        <i class="fa-solid fa-check"></i>
+                                    </div>
+                                    <div>
+                                        <h4>Branding Identity</h4>
+                                        <p>One way to categorize the activities is in terms of the professional’s
+                                            area of expertise such as competitive analysis, corporate strategy.</p>
+                                        <div><a href="">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-6">
+                                <div class="serviceBox">
+                                    <div class="serviceIcon">
+                                        <div class="dotsDiv">
+                                            <div class="dot1"></div>
+                                            <div class="dot2"></div>
+                                        </div>
+                                        <i class="fa-brands fa-apple"></i>
+                                    </div>
+                                    <div>
+                                        <h4>24/Support</h4>
+                                        <p>One way to categorize the activities is in terms of the professional’s
+                                            area of expertise such as competitive analysis, corporate strategy.</p>
+                                        <div><a href="">Read More</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="white_svg fillBlck"><svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+                            <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 "></polygon>
+                        </svg></div>
+                </section>
+                <!-- /* My Service Section End */ -->
+
+
+                <!-- Projects Area -->
+                <section class="projectSec" id="portfolioo">
+                    <div class="projectDiv">
+                        <div class="sectionHeading">
+                            <p>Portfolio</p>
+                            <h2>Latest Project</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="projectBox">
+                                    <div class="projectImgDiv">
+                                        <img src="images/projectsImg1.jpg" alt="" width="100%">
+                                        <div class="hoverTxtDiv">
+                                            <h5>Minimalism</h5>
+                                            <p>Illustration . Art Direction</p>
+                                            <button><a href="">VIEW WORK</a></button>
+                                            <div class="borderDiv"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="projectBox">
+                                    <div class="projectImgDiv">
+                                        <img src="images/projectlst1.jpg" alt="" width="100%">
+                                        <div class="hoverTxtDiv">
+                                            <h5>Abstract Art</h5>
+                                            <p>Illustration . Art Direction</p>
+                                            <button><a href="">VIEW WORK</a></button>
+                                            <div class="borderDiv"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="projectBox">
+                                    <div class="projectImgDiv">
+                                        <img src="images/projectImg3.jpg" alt="" width="100%">
+                                        <div class="hoverTxtDiv">
+                                            <h5>3D Project</h5>
+                                            <p>Illustration . Art Direction</p>
+                                            <button><a href="">VIEW WORK</a></button>
+                                            <div class="borderDiv"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="projectBox">
+                                    <div class="projectImgDiv">
+                                        <img src="images/projectImg6.jpg" alt="" width="100%">
+                                        <div class="hoverTxtDiv">
+                                            <h5>Modern BG</h5>
+                                            <p>Illustration . Art Direction</p>
+                                            <button><a href="">VIEW WORK</a></button>
+                                            <div class="borderDiv"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="projectBox">
+                                    <div class="projectImgDiv">
+                                        <img src="images/projectImg4.jpg" alt="" width="100%">
+                                        <div class="hoverTxtDiv">
+                                            <h5>Visual Design</h5>
+                                            <p>Illustration . Art Direction</p>
+                                            <button><a href="">VIEW WORK</a></button>
+                                            <div class="borderDiv"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="projectBox">
+                                    <div class="projectImgDiv">
+                                        <img src="images/projectImg2.jpg" alt="" width="100%">
+                                        <div class="hoverTxtDiv">
+                                            <h5>Product Design</h5>
+                                            <p>Illustration . Art Direction</p>
+                                            <button><a href="">VIEW WORK</a></button>
+                                            <div class="borderDiv"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="white_svg fillBlck"><svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+                            <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 "></polygon>
+                        </svg></div>
+                </section>
+
+
+                <!-- CUSTOMER REVIEWS -->
+                <section class="reviewSeecc">
+                    <div id="rewiev_area" class="">
+                        <div class="review_slider_area owl-carousel">
+                            <div class="reviewBox text-center">
+                                <div class="testiImgDiv">
+                                    <img src="images/testiImg1.jpg" alt="">
+                                </div>
+                                <div class="testiDescp">
+                                    <h5>Lily Watson</h5>
+                                    <p>SEO of Arts</p>
+                                </div>
+                                <blockquote class="blockquoteTxt text-center">
+                                    <p>It uses a dictionary of over 200 Latin words, combined with a handful of
+                                        model sentence structures, to generate Lorem Ipsum which looks
+                                        reasonable. The generated Lorem Ipsum is the therefore always free from
+                                        repetition, injected humour,sure there embarrassing the middle of text.
+                                        All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                                        Lorem Ipsum is therefore always free from repetition.</p>
+                                </blockquote>
+                                <div class="iconQuote">
+                                    <i class="fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                            <div class="reviewBox text-center">
+                                <div class="testiImgDiv">
+                                    <img src="images/testiImg3.jpg" alt="">
+                                </div>
+                                <div class="testiDescp">
+                                    <h5>Martin Guptil</h5>
+                                    <p>SEO of digita</p>
+                                </div>
+                                <blockquote class="blockquoteTxt text-center">
+                                    <p>It uses a dictionary of over 200 Latin words, combined with a handful of
+                                        model sentence structures, to generate Lorem Ipsum which looks
+                                        reasonable. The generated Lorem Ipsum is the therefore always free from
+                                        repetition, injected humour,sure there embarrassing the middle of text.
+                                        All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                                        Lorem Ipsum is therefore always free from repetition.</p>
+                                </blockquote>
+                                <div class="iconQuote">
+                                    <i class="fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                            <div class="reviewBox text-center">
+                                <div class="testiImgDiv">
+                                    <img src="images/testiImg2.jpg" alt="">
+                                </div>
+                                <div class="testiDescp">
+                                    <h5>David Warner</h5>
+                                    <p>SEO of Alka</p>
+                                </div>
+                                <blockquote class="blockquoteTxt text-center">
+                                    <p>It uses a dictionary of over 200 Latin words, combined with a handful of
+                                        model sentence structures, to generate Lorem Ipsum which looks
+                                        reasonable. The generated Lorem Ipsum is the therefore always free from
+                                        repetition, injected humour,sure there embarrassing the middle of text.
+                                        All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                                        Lorem Ipsum is therefore always free from repetition.</p>
+                                </blockquote>
+                                <div class="iconQuote">
+                                    <i class="fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="white_svg"><svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+                            <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 "></polygon>
+                        </svg></div>
+                </section>
+                <!-- CUSTOMER REVIEWS End -->
+
+
+                <!-- Pricing Table -->
+                <section class="planSec">
+                    <div class="planDivv">
+                        <div class="sectionHeading">
+                            <p>Our Pricing</p>
+                            <h2>Pricing Table</h2>
+                        </div>
+                        <div class="row text-center g-4">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="plansBox">
+                                    <div class="planTitle">
+                                        <div class="planIconDiv">
+                                            <i class="fa-solid fa-mobile-button"></i>
+                                        </div>
+                                        <h4>Basic</h4>
+                                    </div>
+                                    <div class="planBody">
+                                        <h3><sup>$</sup>30 <span>month</span></h3>
+                                        <ul>
+                                            <li>Web Design</li>
+                                            <li>Web Development</li>
+                                            <li>Responsive Design</li>
+                                            <li>24/Support</li>
+                                        </ul>
+                                        <button><a href="">ORDER NOW</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="plansBox">
+                                    <div class="planTitle">
+                                        <div class="planIconDiv">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                        <h4>Standard</h4>
+                                    </div>
+                                    <div class="planBody">
+                                        <h3><sup>$</sup>45 <span>month</span></h3>
+                                        <ul>
+                                            <li>Web Design</li>
+                                            <li>Web Development</li>
+                                            <li>Responsive Design</li>
+                                            <li>24/Support</li>
+                                        </ul>
+                                        <button><a href="">ORDER NOW</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="plansBox">
+                                    <div class="planTitle">
+                                        <div class="planIconDiv">
+                                            <i class="fa-solid fa-code"></i>
+                                        </div>
+                                        <h4>Premium</h4>
+                                    </div>
+                                    <div class="planBody">
+                                        <h3><sup>$</sup>50 <span>month</span></h3>
+                                        <ul>
+                                            <li>Web Design</li>
+                                            <li>Web Development</li>
+                                            <li>Responsive Design</li>
+                                            <li>24/Support</li>
+                                        </ul>
+                                        <button><a href="">ORDER NOW</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="white_svg fillBlck"><svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+                            <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 "></polygon>
+                        </svg></div>
+                </section>
+                <!-- Pricing Table Section End -->
+
+
+                <!-- Latest News -->
+                <section class="newssSec" id="blogg">
+                    <div class="newssDivv">
+                        <div class="sectionHeading">
+                            <p>From my Blog</p>
+                            <h2>Latest News</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-xl-4 col-md-6">
+                                <div class="newssBox">
+                                    <div>
+                                        <img src="images/newsImg1.jpg" alt="" width="100%">
+                                    </div>
+                                    <div class="newsTxtDiv">
+                                        <h6>Everything is easy when you think it easy at all.</h6>
+                                        <div class="newsDetails">
+                                            <ul>
+                                                <li><img src="images/newsauthor1.jpg" alt=""> by <a href="">Warner</a>
+                                                </li>
+                                                <li class="second">April 09,2021</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-6">
+                                <div class="newssBox">
+                                    <div>
+                                        <img src="images/newsImg2.jpg" alt="" width="100%">
+                                    </div>
+                                    <div class="newsTxtDiv">
+                                        <h6>Everything is easy when you think it easy at all.</h6>
+                                        <div class="newsDetails">
+                                            <ul>
+                                                <li><img src="images/newsauthor2.jpg" alt=""> by <a href="">Warner</a>
+                                                </li>
+                                                <li class="second">April 09,2021</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-6">
+                                <div class="newssBox">
+                                    <div>
+                                        <img src="images/newsImg3.jpg" alt="" width="100%">
+                                    </div>
+                                    <div class="newsTxtDiv">
+                                        <h6>Everything is easy when you think it easy at all.</h6>
+                                        <div class="newsDetails">
+                                            <ul>
+                                                <li><img src="images/newsauthor3.jpg" alt=""> by <a href="">Warner</a>
+                                                </li>
+                                                <li class="second">April 09,2021</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="white_svg fillBlck"><svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+                            <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 "></polygon>
+                        </svg></div>
+                </section>
+                <!--  -->
+
+
+                <!-- Cotact Details Section -->
+                <section class="cDeatailsSec" id="contactt">
+                    <div class="cDeatailsDivv">
+                        <div class="row">
+                            <div class="col col-lg-10 offset-lg-1">
+                                <div class="row g-4 text-center mb-5">
+                                    <div class="col-xl-4 col-md-6">
+                                        <div class="cDeatailsBox">
+                                            <div class="cDeatailsIcon"><i class="fa-solid fa-location-dot"></i>
+                                            </div>
+                                            <div class="cDeatailsTxt">
+                                                <h3>Address</h3>
+                                                <p>7 Green Lake Street Crawfordsville, IN 47933</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-md-6">
+                                        <div class="cDeatailsBox">
+                                            <div class="cDeatailsIcon"><i class="fa-solid fa-envelope"></i></div>
+                                            <div class="cDeatailsTxt">
+                                                <h3>Email Us</h3>
+                                                <p>portfar@gmail.com <br>
+                                                    helloyou@gmail.com
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-md-6">
+                                        <div class="cDeatailsBox">
+                                            <div class="cDeatailsIcon"><i class="fa-solid fa-phone"></i></div>
+                                            <div class="cDeatailsTxt">
+                                                <h3>Call Now</h3>
+                                                <p>+1 800 123 456 789 <br>
+                                                    +1 800 123 456 987
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="formDivv">
+                                    <div class="sectionHeading">
+                                        <p>Contact</p>
+                                        <h2>Have Any Question?</h2>
+                                    </div>
+                                    <div class="formBoxx">
+                                        <form action="">
+                                            <div class="row g-4">
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div><input type="text" placeholder="Name"></div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div><input type="text" placeholder="Last Name"></div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div><input type="text" placeholder="Email"></div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div><input type="text" placeholder="Subject"></div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div><textarea name="" id="" cols="30" rows="8"
+                                                            placeholder="Message"></textarea></div>
+                                                </div>
+                                                <div class="col-12 text-center">
+                                                    <div><button>SEND MESSAGE</button></div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="white_svg fillBlck"><svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+                                <polygon points="0,300 655.167,210.5 1432.5,300 1920,198.5 1920,300 "></polygon>
+                            </svg></div> -->
+                </section>
+                <!-- Cotact Details Section End -->
+
+
+                <!-- Map Section -->
+                <div class="" style="background-color: #202020;">
+                    <map name=""><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224567.66182759035!2d76.84966111376744!3d28.423187825110176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19d582e38859%3A0x2cf5fe8e5c64b1e!2sGurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1670318365034!5m2!1sen!2sin"
+                            width="100%" height="550" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe></map>
+                </div>
+                <!-- End Map Section -->
+
+
+                <!-- Footer Section -->
+                <footer class="text-center">
+                    <div>
+                        <div>
+                            <div class="footerLogo"><img src="images/name-logo-light-removebg.png" alt=""></div>
+                            <div class="footerSocial">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f "></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-square-google-plus "></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="cpyrightDiv">
+                                <p>&#169; Copyright 2024. All rights are reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- Footer Section End -->
+            </div>
+        </div>
+    </section>
+    <!-- Main Section End -->
+
+
+    <!-- Bottom to top button -->
+    <button onclick="topFun()" id="scrlTpBtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
